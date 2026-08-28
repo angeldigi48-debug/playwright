@@ -79,11 +79,11 @@ console.log(details)
 // Rest Operator (VERY IMPORTANT)
 // “Rest operator is used to collect the remaining elements into an array.” 
 
-let num = [1234,300,400,500]
-let[x1,...x2]=num
+let num = [300,400,500,1234]
+let[...x1,x2]=num
 console.log(x1) //op - 1234
 console.log(x2) //op - [ 300, 400, 500 ]
-
+/*
 let num2 = ["xyz","ABC","Parnika","Prisha","Archana"]
 let[y1,y2,...y3]=num2
 console.log(y1) //op - XYZ
@@ -100,5 +100,5 @@ let {studN,subject,...remain} = student
 console.log(studN) // Rahul
 console.log(subject) // English
 console.log(remain) // { class: 10, address: 'Pune' }
-
+*/
 

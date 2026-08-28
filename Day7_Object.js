@@ -29,3 +29,15 @@ console.log(Object.entries(info))
 
 let aa = info.hasOwnProperty("city")
 console.log(aa) //true
+
+console.log("*********************************************************************")
+
+let Teacher = {
+    FName : "Parnika",
+    LName : "Prisha",
+    Contact : 959594,
+    displayDetails : function () {
+        console.log(this.FName+" "+this.LName+ " "+this.Contact)
+    }
+}
+Teacher.displayDetails()
